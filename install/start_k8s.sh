@@ -12,7 +12,7 @@ chmod ga+w install/create_secrets.sh
 
 kubectl create -f $HOME/k8s-o11y-workshop/kube-state-metrics
 
-kubectl create -f $HOME/k8s-o11y-workshop/theia/theia.yml
+# kubectl create -f $HOME/k8s-o11y-workshop/theia/theia.yml
 
 # to install aliases
 # source $HOME/k8s-o11y-workshop/install/aliases.sh
