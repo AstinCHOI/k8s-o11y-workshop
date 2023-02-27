@@ -1,3 +1,5 @@
 secret*
 docker/petclinic/target/*
 jupyter/scripts/.ipynb_checkpoints/*
+
+NOTE.txt

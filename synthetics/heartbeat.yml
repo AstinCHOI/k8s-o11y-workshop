@@ -63,7 +63,7 @@ data:
     - type: browser
       id: home2edit-monitor
       name: Home -> Edit Owner journey
-      schedule: "@every 1s"
+      schedule: "@every 10m"
       source:
         inline:
           script: |-
@@ -91,7 +91,7 @@ data:
     - type: browser
       id: home2vets-monitor
       name: Home -> Show Vets journey
-      schedule: "@every 1s"
+      schedule: "@every 10m"
       source:
         inline:
           script: |-
@@ -107,7 +107,7 @@ data:
     - type: browser
       id: home2addpet-monitor
       name: Home -> Add Owner journey
-      schedule: "@every 1s"
+      schedule: "@every 10m"
       source:
         inline:
           script: |-
@@ -127,7 +127,7 @@ data:
     - type: browser
       id: error-monitor
       name: Home -> Error journey
-      schedule: "@every 6s"
+      schedule: "@every 10m"
       source:
         inline:
           script: |-
